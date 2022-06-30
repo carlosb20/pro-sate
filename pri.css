@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+html,body {
+    
+    background-color:black;
+}
+
+h1{
+    color:white;
+    text-align:center;
+    font: 3em sans-serif;
+}
+
+.pos{
+    background-color:black;
+    margin: 10px auto;
+    overflow:hidden;
+      
+}
+
+.pos ul{
+    
+    display:flex;
+    padding:0;
+    width:400%;
+    animation: cam 12s infinite;
+}
+
+.pos li{
+   
+    width:100%;
+    list-style:none;
+}
+
+.pos img{
+    
+    height:250px;
+    width:100%;
+    
+}
+
+@keyframes cam {
+
+    0%{margin-left:0%;}
+    20%{margin-left:0%;}
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    95%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+    
+}
+
