@@ -16,7 +16,7 @@ h1{
 
 .pos{
     background-color:black;
-    margin: 10px auto;
+    margin:0px auto;
     overflow:hidden;
       
 }
@@ -55,3 +55,27 @@ h1{
     
 }
 
+
+.cont{
+    
+    width:100%;
+    height:250px;
+    background-color:aqua;
+    margin:0px;
+
+}
+
+.cont img{
+    position:absolute;
+    width:55px;
+    left: 10px;
+    border: 2px solid red;
+    border-radius:25px;
+
+}
+
+.cont img:hover{
+
+    width: 60px;
+    border: 2px solid blue;
+}
