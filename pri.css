@@ -59,11 +59,9 @@ h1{
 
 .cont{
     
-    width:cover;
     height:250px;
     background-color: #2196F3;
     padding:10px;
-    grid-row:10px;
     
 }
 
@@ -73,7 +71,7 @@ h1{
     width:55px;
     border: 2px solid greenyellow;
     border-radius:25px;
-    margin: 10px;
+    
 }
 
 .cont img:hover{
